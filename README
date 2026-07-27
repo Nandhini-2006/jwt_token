@@ -21,14 +21,14 @@ A simple JWT Authentication project built using Spring Boot, Spring Security, an
 
 ## API Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/register` | Register a new user |
-| POST | `/login` | Login and receive JWT |
-| GET | `/hello` | Access protected API |
+| Method | Endpoint    | Description             |
+| :----- | :---------- | :---------------------- |
+| POST   | `/register` | Register a new user     |
+| POST   | `/login`    | Login and receive JWT   |
+| GET    | `/hello`    | Access protected API    |
 
 ## Run the Project
-1. Create a MySQL database named `jwtdb`.
+1. Create a MySQL database named **jwtdb**.
 2. Update the database credentials in `application.properties`.
 3. Run the application.
 4. Test the APIs using Postman.
