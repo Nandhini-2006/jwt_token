@@ -1,0 +1,56 @@
+# JWT Authentication using Spring Boot
+
+## Description
+This project is a simple JWT Authentication system built using Spring Boot, Spring Security, MySQL, and JWT. It allows users to register, log in, and access protected APIs using a JWT token.
+
+## Technologies Used
+- Java 21
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- MySQL
+- JWT (JSON Web Token)
+- Maven
+- Lombok
+
+## Features
+- User Registration
+- User Login
+- Password Encryption (BCrypt)
+- JWT Token Generation
+- JWT Token Validation
+- Protected REST APIs
+
+## Database
+Create a MySQL database:
+
+```sql
+CREATE DATABASE jwtdb;
+```
+
+Update the database details in `application.properties`.
+
+## API Endpoints
+
+### Register
+**POST** `/register`
+
+### Login
+**POST** `/login`
+
+### Protected API
+**GET** `/hello`
+
+> Add the JWT token in the request header:
+>
+> `Authorization: Bearer <your_token>`
+
+## Run the Project
+
+1. Clone the project.
+2. Configure MySQL in `application.properties`.
+3. Run the project.
+4. Test the APIs using Postman.
+
+## Author
+**Nandhini**
