@@ -32,6 +32,3 @@ A simple JWT Authentication project built using Spring Boot, Spring Security, an
 2. Update the database credentials in `application.properties`.
 3. Run the application.
 4. Test the APIs using Postman.
-
-## Author
-**Nandhini**
